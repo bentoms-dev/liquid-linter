@@ -7,7 +7,7 @@ Liquid Linter tool built with Node.js and TypeScript to lint Shopify Liquid file
 Install Node.js and npm on your machine. Then, clone this repository and install dependencies.
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/bentoms-dev/liquid-linter
 cd liquid-linter
 npm install
 ```
