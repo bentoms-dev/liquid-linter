@@ -1,0 +1,24 @@
+{
+  "name": "liquid-linter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "shx rm -rf dist && tsc -b",
+    "lint": "theme-lint ./dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Ben Toms",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@oclif/command": "^1.8.36",
+    "@shopify/theme-lint": "^3.1.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.14.8",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "shx": "^0.3.4"
+  }
+}
